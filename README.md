@@ -20,7 +20,7 @@
     VCPKG_DEFAULT_HOST_TRIPLET=x64-mingw-dynamic
 # 4. drogon
 ## 安装
-    vcpkg install jsoncpp:x64-mingw-dynamic zlib:x64-mingw-dynamic openssl:x64-mingw-dynamic sqlite3:x64-mingw-dynamic libpq:x64-mingw-dynamic libpqxx:x64-mingw-dynamic drogon[core,ctl,sqlite3,postgres,orm]:x64-mingw-dynamic
+    vcpkg install jsoncpp:x64-mingw-dynamic zlib:x64-mingw-dynamic openssl:x64-mingw-dynamic sqlite3:x64-mingw-dynamic libpq:x64-mingw-dynamic libpqxx:x64-mingw-dynamic drogon[core,ctl,sqlite3,postgres,orm,redis]:x64-mingw-dynamic
 ## 引入
     //配置环境变量
     VCPKG_INSTALLATION_ROOT\x64-mingw-dynamic\tools\drogon
